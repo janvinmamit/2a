@@ -1,0 +1,55 @@
+h1,h2,p,label,input{
+    margin: 0;
+}
+
+header{
+    text-align: centre;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+body{
+    color: #333;
+    line-height: 1.6;
+}
+
+main{
+    text-align: center;
+    padding: 2rem;
+}
+
+footer{
+    text-align: centre;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+.signup,.signin{
+        max-width: 300px;
+        margin: 0 auto;
+}
+label{
+    display: block;
+    margin: 5px
+}
+input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+button{
+    display: inline-block;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 50%;
+}
+button:hover{
+    background-color: #555;
+}
